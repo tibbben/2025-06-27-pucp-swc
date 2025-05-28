@@ -272,7 +272,7 @@ También es requerido que respeten el
 </p>
 
 {% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
+{% include sc/setup.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
