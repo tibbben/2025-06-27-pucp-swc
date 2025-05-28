@@ -271,6 +271,21 @@ También es requerido que respeten el
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+{% if site.carpentry == "swc" %}
+{% include swc/setup.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/setup.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/setup.html %}
+{% elsif site.carpentry == "incubator" %}
+Please check the "Setup" page of
+<a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
+to obtain the software and data you will need to follow the lesson.
+{% endif %}
+
+{% comment %}
+LEGACY STUFF BELOW
+
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>La terminal Bash</h3>
 
@@ -574,6 +589,8 @@ escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
   </p>
 {% endcomment %}
 </div> {% comment %} Fin de la sección 'Python'. {% endcomment %}
+
+{% endcomment %}
 
 {% comment %} 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
