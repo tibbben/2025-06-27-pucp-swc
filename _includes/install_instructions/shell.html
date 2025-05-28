@@ -81,16 +81,16 @@ Si la variable de entorno "HOME" no está configurada (o no sabe cuál es):
 <ol>
 <li>Abra el símbolo del sistema (abra el menú Inicio, escriba <code>cmd</code> y presione <kbd>Intro</kbd>)</li>
 <li>
-Escriba la siguiente línea en la ventana del símbolo del sistema, tal como se muestra:
+Escriba la siguiente línea en la ventana del símbolo del sistema exactamente como se indica:
 <p><code>setx HOME "%USERPROFILE%"</code></p>
 </li>
-<li>Presione <kbd>Intro</kbd>; debería ver <code>ÉXITO: ​​Se guardó el valor especificado.</code></li>
+<li>Presione <kbd>Intro</kbd>; debería ver <code>ÉXITO: ​​Se guardó el valor especificado</code></li>
 <li>Salga del símbolo del sistema escribiendo <code>exit</code> y luego presionando <kbd>Intro</kbd></li>
 </ol>
 </li>
 </ol>
 <p>Esto le proporcionará Git y Bash en el programa Git Bash.</p>
-<h4>Video Tutorial
+<h4>Videotutorial</h4>
 <div class="yt-wrapper2">
 <div class="yt-wrapper">
 <iframe type="text/html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" src="https://www.youtube-nocookie.com/embed/339AEqk9c-8?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0" class="yt-frame" allowfullscreen></iframe>
@@ -99,14 +99,16 @@ Escriba la siguiente línea en la ventana del símbolo del sistema, tal como se 
 </article>
 <article role="tabpanel" class="tab-pane" id="shell-macos">
 <p>
-El shell predeterminado en Mac OS X Ventura y versiones posteriores es Zsh, pero Bash está disponible en todas las versiones, así que no es necesario instalar nada. Puedes acceder a Bash desde la Terminal (se encuentra en <code>/Aplicaciones/Utilidades</code>).
-Consulta el <a href="#shell-macos-video-tutorial">videotutorial</a> de instalación de Git para ver un ejemplo de cómo abrir la Terminal.
-Te recomendamos mantener la Terminal en tu dock para este taller.
+El shell predeterminado en Mac OS X Ventura y versiones posteriores es Zsh, pero Bash está disponible en todas las versiones, así que no es necesario instalar nada.
+Se accede a Bash desde la Terminal (disponible en <code>/Aplicaciones/Utilidades</code>).
+Consulta el <a href="#shell-macos-video-tutorial">videotutorial</a>
+de instalación de Git para ver un ejemplo de cómo abrir la Terminal.
+Te recomendamos mantener la Terminal en tu dock para este taller. </p>
+<p>
+Para comprobar si tu shell predeterminado es Bash, escribe <code>echo $SHELL</code> en la Terminal y pulsa la tecla <kbd>Intro</kbd>. Si el mensaje impreso no termina en '/bash', tu shell predeterminado es otro. Puedes cambiar tu shell actual a Bash escribiendo <code>bash</code> y pulsando <kbd>Intro</kbd>. Para comprobar tu shell actual, escribe <code>echo $0</code> y pulsa <kbd>Intro</kbd>.
 </p>
 <p>
-Para comprobar si tu shell predeterminado es Bash, escribe <code>echo $SHELL</code> en la Terminal y pulsa la tecla <kbd>Intro</kbd>. Si el mensaje impreso no termina en '/bash', significa que tu shell predeterminado es otro. Puedes cambiar tu shell actual a Bash escribiendo <code>bash</code> y pulsando <kbd>Intro</kbd>. Para comprobar tu shell actual, escribe <code>echo $0</code> y pulsa <kbd>Intro</kbd>. </p>
-<p>
-Para cambiar su shell predeterminado a Bash, escriba <code>chsh -s /bin/bash</code> y presione la tecla <kbd>Intro</kbd>. Luego, reinicie para que el cambio surta efecto. Para volver a Zsh, escriba <code>chsh -s /bin/zsh</code>, presione la tecla <kbd>Intro</kbd> y reinicie. Para consultar los shells disponibles, escriba <code>cat /etc/shells</code>. </p>
+Para cambiar tu shell predeterminado a Bash, escribe <code>chsh -s /bin/bash</code> y pulsa la tecla <kbd>Intro</kbd>. Luego, reinicia para que el cambio surta efecto. Para volver a cambiar a Zsh como predeterminado, escriba <code>chsh -s /bin/zsh</code>, presione la tecla <kbd>Retorno</kbd> y reinicie. Para comprobar los shells disponibles, escriba <code>cat /etc/shells</code>. </p>
 <h4 id="shell-macos-video-tutorial">Videotutorial</h4>
 <div class="yt-wrapper2">
 <div class="yt-wrapper">
