@@ -1,113 +1,108 @@
 {% comment %}
 
-Remove the third paragraph if the workshop will teach Python
-using something other than the Jupyter Notebook. Details at
+Elimine el tercer párrafo si el taller enseñará Python utilizando algo distinto a Jupyter Notebook. Detalles en:
 
 https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility
 {% endcomment %}
 <div id="python">
-  <h3>Python</h3>
+<h3>Python</h3>
 
-  <p>
-    <a href="https://python.org">Python</a> is a popular language for
-    research computing, and great for general-purpose programming as
-    well.  Installing all of its research packages individually can be
-    a bit difficult, so we recommend
-    <a href="https://www.anaconda.com/download/success">Anaconda</a>,
-    an all-in-one installer.
-  </p>
+<p>
+<a href="https://python.org">Python</a> es un lenguaje popular para la informática de investigación y también ideal para la programación de propósito general. Instalar todos sus paquetes de investigación individualmente puede ser un poco difícil, por lo que recomendamos <a href="https://www.anaconda.com/download/success">Anaconda</a>, un instalador todo en uno. </p>
 
-  <p>
-    Regardless of how you choose to install it,
-    <strong>please make sure you install Python version 3.x</strong>
-    (e.g., 3.6 is fine).
-  </p>
+<p>
+Independientemente de cómo elija instalarlo,
+<strong>asegúrese de instalar la versión 3.x de Python</strong>
+(por ejemplo, la 3.6 es suficiente).
+</p>
 
-  {% comment %}
-  Please remove or comment out this paragraph using
-  <!-- and --> or  {% comment %} and {% endcomment %}
-  if you do not plan to use Jupyter Notebook environment.
-  {% endcomment %}
-  <p>
-    We will teach Python using the <a href="https://jupyter.org/">Jupyter Notebook</a>,
-    a programming environment that runs in a web browser (Jupyter Notebook will be installed by Anaconda). For this to work you will need a reasonably
-    up-to-date browser. The current versions of the Chrome, Safari and
-    Firefox browsers are all
-    <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">supported</a>
-    (some older browsers, including Internet Explorer version 9
-    and below, are not).
-  </p>
+{% comment %}
+Elimine o comente este párrafo usando <!-- y --> o {% comment %} y {% endcomment %}
+si no planea usar el entorno Jupyter Notebook.
+{% endcomment %}
+<p>
+Enseñaremos Python usando <a href="https://jupyter.org/">Jupyter Notebook</a>,
+un entorno de programación que se ejecuta en un navegador web (Jupyter Notebook será instalado por Anaconda). Para que esto funcione, necesitará un navegador razonablemente actualizado. Las versiones actuales de los navegadores Chrome, Safari y Firefox son <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">compatibles</a>
+(algunos navegadores más antiguos, como Internet Explorer 9 y anteriores, no lo son). </p>
 
-  <div>
-    <ul class="nav nav-tabs" role="tablist">
-      <li role="presentation" class="active"><a data-os="windows" href="#python-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
-      <li role="presentation"><a data-os="macos" href="#python-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
-      <li role="presentation"><a data-os="linux" href="#python-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
-    </ul>
+<div>
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active"><a data-os="windows" href="#python-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+<li role="presentation"><a data-os="macos" href="#python-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+<li role="presentation"><a data-os="linux" href="#python-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+</ul>
 
-    <div class="tab-content">
-      <article role="tabpanel" class="tab-pane active" id="python-windows">
-        <ol>
-          <li>Open <a href="https://www.anaconda.com/download/success">https://www.anaconda.com/download/success</a> with your web browser.</li>
-          <li>Download the Anaconda for Windows installer with Python 3. (If you are not sure which version to choose, you probably want the 64-bit Graphical Installer <em>Anaconda3-...-Windows-x86_64.exe</em>)</li>
-          <li>Install Python 3 by running the Anaconda Installer, using all of the defaults for installation <em>except</em> make sure to check <strong>Add Anaconda to my PATH environment variable</strong>.</li>
-        </ol>
-        <h4>Video Tutorial</h4>
-        <div class="yt-wrapper2">
-        <div class="yt-wrapper">
-        <iframe type="text/html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" src="https://www.youtube-nocookie.com/embed/xxQ0mzZ8UvA?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0" class="yt-frame" allowfullscreen></iframe>
-        </div>
-        </div>
-      </article>
-      <article role="tabpanel" class="tab-pane" id="python-macos">
-        <ol>
-          <li>Open <a href="https://www.anaconda.com/download/success">https://www.anaconda.com/download/success</a> with your web browser.</li>
-          <li>Download the Anaconda Installer with Python 3 for macOS (you can either use the Graphical or the Command Line Installer).</li>
-          <li>Install Python 3 by running the Anaconda Installer using all of the defaults for installation.</li>
-        </ol>
-        <h4>Video Tutorial</h4>
-        <div class="yt-wrapper2">
-        <div class="yt-wrapper">
-        <iframe type="text/html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" src="https://www.youtube-nocookie.com/embed/TcSAln46u9U?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0" class="yt-frame" allowfullscreen></iframe>
-        </div>
-        </div>
-      </article>
-      <article role="tabpanel" class="tab-pane" id="python-linux">
-        <ol>
-          <li>Open <a href="https://www.anaconda.com/download/success">https://www.anaconda.com/download/success</a> with your web browser.</li>
-          <li>Download the Anaconda Installer with Python 3 for Linux.<br>
-            (The installation requires using the shell. If you aren't
-            comfortable doing the installation yourself
-            stop here and request help at the workshop.)
-          </li>
-          <li>
-            Open a terminal window and navigate to the directory where
-            the executable is downloaded (e.g., `cd ~/Downloads`).
-          </li>
-          <li>
-            Type <pre>bash Anaconda3-</pre> and then press
-            <kbd>Tab</kbd> to autocomplete the full file name. The name of
-            file you just downloaded should appear.
-          </li>
-          <li>
-            Press <kbd>Enter</kbd>
-            (or <kbd>Return</kbd> depending on your keyboard).
-            You will follow the text-only prompts.
-            To move through the text, press <kbd>Spacebar</kbd>.
-            Type <code>yes</code> and press enter to approve the license.
-            Press <kbd>Enter</kbd> (or <kbd>Return</kbd>)
-            to approve the default location
-            for the files.
-            Type <code>yes</code> and press
-            <kbd>Enter</kbd> (or <kbd>Return</kbd>)
-            to prepend Anaconda to your <code>PATH</code>
-            (this makes the Anaconda distribution the default Python).
-          </li>
-          <li>
-            Close the terminal window.
-          </li>
-        </ol>
-      </article>
-    </div>
-  </div>
+<div class="tab-content">
+<article role="tabpanel" class="tab-pane active" id="python-windows">
+<ol>
+<li>Abre <a href="https://www.anaconda.com/download/success">https://www.anaconda.com/download/success</a> con tu navegador web.</li>
+<li>Descarga el instalador de Anaconda para Windows con Python 3. (Si no estás seguro de qué versión elegir, probablemente prefieras el instalador gráfico de 64 bits <em>Anaconda3-...-Windows-x86_64.exe</em>).</li>
+<li>Instala Python 3 ejecutando el instalador de Anaconda, usando todos los valores predeterminados para la instalación, <em>excepto</em> asegurarte de marcar la opción <strong>Agregar Anaconda a mi variable de entorno PATH</strong>.</li>
+</ol>
+<h4>Videotutorial</h4>
+<div class="yt-wrapper2">
+<div class="yt-wrapper">
+
+<iframe type="text/html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" src="https://www.youtube-nocookie.com/embed/xxQ0mzZ8UvA?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0" class="yt-frame" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
+</article>
+
+<article role="tabpanel" class="tab-pane" id="python-macos">
+
+<ol>
+
+<li>Abre <a href="https://www.anaconda.com/download/success">https://www.anaconda.com/download/success</a> con tu navegador web.</li>
+
+<li>Descarga el instalador de Anaconda con Python 3 para macOS (puedes usar la versión gráfica o la línea de comandos) Instalador).</li>
+<li>Instala Python 3 ejecutando el instalador de Anaconda con todos los valores predeterminados de instalación.</li>
+</ol>
+<h4>Videotutorial</h4>
+<div class="yt-wrapper2">
+<div class="yt-wrapper">
+<iframe type="text/html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" src="https://www.youtube-nocookie.com/embed/TcSAln46u9U?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0" class="yt-frame" allowfullscreen></iframe>
+</div>
+</div>
+</article>
+<article role="tabpanel" class="tab-pane" id="python-linux">
+<ol>
+<li>Abrir <a href="https://www.anaconda.com/download/success">https://www.anaconda.com/download/success</a> con su navegador web.</li>
+<li>Descargue el instalador de Anaconda con Python 3 para Linux.<br>
+(La instalación requiere usar la shell. Si no se siente cómodo realizando la instalación usted mismo, deténgase aquí y solicite ayuda en el taller).
+</li>
+<li>
+Abra una ventana de terminal y navegue hasta el directorio donde se descargó el ejecutable (por ejemplo, `cd ~/Descargas`).
+</li>
+<li>
+Escriba <pre>bash Anaconda3-</pre> y luego presione <kbd>Tab</kbd> para autocompletar el nombre completo del archivo. Debería aparecer el nombre del archivo que acaba de descargar.
+</li>
+<li>
+Presiona <kbd>Intro</kbd>
+(o <kbd>Retorno</kbd>, según tu teclado).
+Seguirás las instrucciones de solo texto.
+Para desplazarte por el texto, presiona la <kbd>Barra espaciadora</kbd>.
+Escribe <code>yes</code> y presiona Intro para aprobar la licencia.
+Presiona <kbd>Intro</kbd> (o <kbd>Retorno</kbd>)
+para aprobar la ubicación predeterminada de los archivos.
+Escribe <code>yes</code> y presiona <kbd>Intro</kbd> (o <kbd>Retorno</kbd>)
+para anteponer Anaconda a tu <code>PATH</code>
+(esto convierte la distribución de Anaconda en la distribución predeterminada de Python).
+
+
+Cierra la ventana de terminal.
+
+
+
+</li>
+
+</ol>
+
+</article>
+
+
+</div>
+
 </div>
