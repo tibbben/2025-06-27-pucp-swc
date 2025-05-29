@@ -10,7 +10,7 @@ humandate: "28-29 de junio, 2025"    # fechas del taller en formato legible (por
 humantime: "9:00 am - 4:30 pm"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
 startdate: 2025-06-28      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
 enddate: 2025-06-29        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
-instructor: ["Timothy Norris", "Pedro Romero"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Marie Skłodowska-Curie"]
+instructor: ["Timothy Norris", "Pedro E. Romero"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Marie Skłodowska-Curie"]
 helper: ["Melanie Malca Cruzado", "Joan Moreano Mendoza"]     # lista de nombres de las **helpers** separados por comas y entre corchetes, como ["Carrie Fisher", "Frances Allen", "Margaret Hamilton"]
 email: ["tnorris@miami.edu", "jbazo@pucp.edu.pe"]    # lista de direcciones de correo electrónico de contacto con la **host** ó **lead instructor**, separadas por comas y entre corchetes, como ["ada.lovelace@ejemplo.org", "carrie.fisher@ejemplo.org", "hedy.lamarr@example.org"]
 collaborative_notes:             # optional: URL de las notas colaborativas del taller, por ejemplo un Etherpad o documento de Google Docs 
@@ -113,7 +113,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   Modifica este bloque si hay algún requerimiento especial.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requerimientos:</strong> Las asistentes deben traer una computadora portátil con sistema operativo Mac, Linux o Windows (no tablet, Chromebook, etc.), que tenga permisos de administradora habilitados. Deben tener algunos paquetes de software específicos instalados (listados <a href="#setup">aquí</a>). 
+  <strong>Requerimientos:</strong> Las asistentes DEBEN traer una computadora portátil con sistema operativo Mac, Linux o Windows (no tablet, Chromebook, etc.), que tenga permisos de administrador habilitados. Deben tener algunos paquetes de software específicos instalados (listados <a href="#setup">aquí</a>). 
 	
 También es requerido que respeten el 
   {% if site.carpentry == "swc" %}
@@ -133,14 +133,14 @@ También es requerido que respeten el
   Modifica este bloque si existen barreras de accesibilidad o instrucciones especiales.
 
 <p id="accessibility">
-  <strong>Accesibilidad:</strong> Estamos comprometidas a hacer que este taller sea accesible para todas. Las organizadoras comprobaron que: 
+  <strong>Accesibilidad:</strong> Estamos comprometidos a hacer que este taller sea accesible para todxs. Los organizadores comprobaron que: 
 </p>
 <ul>
   <li>El salón es accesible para silla de ruedas o similar</li>
   <li>Baños accesibles a disposición</li>
 </ul>
 <p>
-  Los materiales se entregaran antes del taller, también se encuentra disponible material impreso si se pide a los organizadores con anticipación. Si podemos ayudar a facilitar el aprendizaje (por ejemplo, con intérpretes de lenguaje de señas, o instalaciones para lactancia) por favor contáctanos (utilizando los detalles de contacto listados debajo) e intentaremos proveerlos.
+  Los materiales se entregaran antes del taller, también se encuentra disponible material impreso si se pide a los organizadores con anticipación.
 </p>
 
 {% endcomment %}
