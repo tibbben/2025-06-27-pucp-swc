@@ -131,7 +131,7 @@ También es requerido que respeten el
   ACCESIBILIDAD
 
   Modifica este bloque si existen barreras de accesibilidad o instrucciones especiales.
-{% endcomment %}
+
 <p id="accessibility">
   <strong>Accesibilidad:</strong> Estamos comprometidas a hacer que este taller sea accesible para todas. Las organizadoras comprobaron que: 
 </p>
@@ -142,6 +142,8 @@ También es requerido que respeten el
 <p>
   Los materiales se entregaran antes del taller, también se encuentra disponible material impreso si se pide a los organizadores con anticipación. Si podemos ayudar a facilitar el aprendizaje (por ejemplo, con intérpretes de lenguaje de señas, o instalaciones para lactancia) por favor contáctanos (utilizando los detalles de contacto listados debajo) e intentaremos proveerlos.
 </p>
+
+{% endcomment %}
 
 {% comment %}
   DIRECCIONES DE CORREO ELECTRÓNICO DE CONTACTO
