@@ -1,6 +1,6 @@
 ---
 layout: workshop      # NO CAMBIAR ESTO 
-title: "Introducción a Computación Cientifica por Software Carpentry"
+title: "Introducción a Computación Científica por Software Carpentry"
 venue: "Pontificia Universidad Católica del Perú (PUCP)"        # nombre breve del espacio donde se lleva adelante el taller, sin dirección (por ejemplo, "Universidad de Buenos Aires")
 address: "Av. Universitaria 1801, San Miguel 15088, Lima, Peru"      # dirección completa del espacio donde se realizará el taller (por ejemplo, "Aula 3, Av. Córdoba 1234, Buenos Aires, Argentina")
 country: "pe"      # código ISO del país, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_3166-1)
