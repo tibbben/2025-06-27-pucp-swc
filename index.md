@@ -261,13 +261,12 @@ También es requerido que respeten el Código de Conducta de
   Data Carpentry
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
-  {% endif %}
-  ,
+  {% endif %},
   necesitarás acceso a algunos de los programas descritos abajo.
   Además, necesitarás un navegador actualizado.
 </p>
 <p>
-  Mantenemos una lista de problemas comunes que ocurren durante la instalación como referencia para los instructores que pueden ser útiles en la 
+  Mantenemos una lista de problemas comunes que ocurren durante la instalación como referencia para los instructores que pueden ser útiles en este enlace 
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
